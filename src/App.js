@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import AnimatedRoutes from "./components/AnimatedRoutes";
+import { BrowserRouter as Router } from "react-router-dom";
+import TypographyLoader from "./components/TypographyLoader";
+
 
 function App() {
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate an asynchronous operation (e.g., API call)
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 4000); // Simulating a 2-second loading time
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {isLoading ? (
+        <TypographyLoader />
+      ) : (
+
+        <Router>
+          <AnimatedRoutes />
+        </Router>
+     
+      )}
+    </>
+    
   );
 }
 

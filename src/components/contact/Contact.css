@@ -1,0 +1,14 @@
+input {
+    border: #90E77D;
+}
+
+.contactbutton {
+    background: #90E77D;
+    color: #000;
+    font-weight: 700;
+}
+
+.contactbutton:hover {
+    background: linear-gradient(80deg, #014507, #7a6b6b);
+    color: #90E77D;
+}
