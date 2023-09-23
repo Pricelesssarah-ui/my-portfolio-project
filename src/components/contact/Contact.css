@@ -1,11 +1,12 @@
-input {
-    border: #90E77D;
+input, textarea {
+    border: 1px solid #90E77D;
 }
 
 .contactbutton {
     background: #90E77D;
     color: #000;
     font-weight: 700;
+    border: 1px solid #90E77D;
 }
 
 .contactbutton:hover {

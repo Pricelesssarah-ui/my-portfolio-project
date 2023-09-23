@@ -1,0 +1,12 @@
+.slide-up {
+    animation: slideUp 2s ease-out; /* Define the animation */
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%); /* Start position */
+    }
+    to {
+      transform: translateY(0); /* End position */
+    }
+  }

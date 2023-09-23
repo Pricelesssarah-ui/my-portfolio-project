@@ -1,22 +1,29 @@
 import React from 'react';
 import "./Contact.css";
+import { motion } from 'framer-motion';
 
 
 
 function Contact() {
   return (
 
-    <div name="contact" className='w-full h-full p-4'>
+    <motion.div name="contact" 
+        className='w-full h-full p-4'
+
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
+    >
     
         <div className='flex flex-col p-4 justify-center max-w-screen-lg 
             mx-auto h-full'> 
 
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline 
+                <h1 className='text-4xl font-bold inline 
                     border-b-4 border-gray-500'>Contact
-                </p>
+                </h1>
 
-                <p className='py-6'>
+                <p className='py-6 text-2xl'>
                     Submit the form below to get in touch with me
                 </p>
             </div>
@@ -49,22 +56,16 @@ function Contact() {
                     </textarea>
 
 
-                    <button className='contactbutton px-6 py-3 my-8 
-                        mx-auto flex items-center rounded-md'>
+                    <button className='contactbutton px-6 py-2 my-8 
+                        mx-auto flex items-center hover:scale-100 duration-500'>
                         Let's talk
                     </button>
-
-
-
-
-
-
                 </form>
             </div>
 
         </div>
 
-    </div>
+    </motion.div>
   )
 }
 

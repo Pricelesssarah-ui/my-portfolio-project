@@ -25,11 +25,11 @@ function Home() {
                     that are user-friendly with an overall user experience.
                 </p>
                 <div>
-                    <NavLink to="portfolio" smooth duration={300}
+                    <NavLink to="/contact" smooth duration={500}
                         className="portfoliobutton group w-fit px-6 py-3 my-5
                         flex items-center rounded-md cursor-pointer">
-                        Portfolio
-                        <span className="group-hover:rotate-90 duration-300">
+                        Hire me...
+                        <span className="group-hover:rotate-90 duration-500">
                             <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                         </span>
                     </NavLink>

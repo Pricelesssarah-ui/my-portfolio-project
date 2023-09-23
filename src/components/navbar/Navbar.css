@@ -1,0 +1,12 @@
+button {
+    padding: 5px 10px;
+    border: 1px solid #90E77D;
+    background: #90E77D;
+    color: #000;
+    font-weight: 700;
+}
+
+button:hover {
+    background: linear-gradient(80deg, #014507, #7a6b6b);
+    color: #90E77D;
+}

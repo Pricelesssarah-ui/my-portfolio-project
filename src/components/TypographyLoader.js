@@ -10,8 +10,8 @@ function TypographyLoader() {
   return (
     <div className="loader flex flex-col justify-center items-center bg-black">
       <div className="lg:text-5xl md:text-2xl sm:text-1xl font-semibold mb-4 text-white"> <h1>Hey!</h1> </div>
-      <div className="animatetext animate-bounce text-1xl font-extrabold lg:text-6xl md:text-4xl">
-        Typography
+      <div className="animatetext animate-bounce text-1xl font-extrabold lg:text-4xl md:text-4xl">
+        Welcome to Sarah's Portfolio
       </div>
       <div>
       <img src={Group1} 
