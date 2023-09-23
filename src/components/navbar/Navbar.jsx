@@ -50,7 +50,7 @@ const NavBar = () => {
 
                 )}
 
-                <button className="hover:scale-100 duration-500"> <NavLink to="/contact">Let's connect</NavLink> </button>
+                <button className="rounded"> <NavLink to="/contact" className="hover:scale-100 duration-300">Let's connect</NavLink> </button>
 
             </ul>
 
@@ -84,7 +84,7 @@ const NavBar = () => {
 
                     )}
 
-                    <button><NavLink to="/contact" className="hover:scale-100 duration-500 rounded">Let's connect</NavLink> </button>
+                    <button className="rounded"><NavLink to="/contact" className="hover:scale-100 duration-300">Let's connect</NavLink> </button>
                 </ul>
             )}
 

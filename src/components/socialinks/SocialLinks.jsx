@@ -15,7 +15,7 @@ function SocialLinks() {
                     LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: "https://www.linkedIn.com/in/sarah-adebayo-a52324204",
+            href: "https://www.linkedIn.com/in/sarahadebayo",
             style: 'rounded-tr-md',
         },
 
@@ -26,7 +26,7 @@ function SocialLinks() {
                     Github <FaGithub size={30}/>
                 </>
             ),
-            href: "https://www.linkedIn.com/in/sarah-adebayo-a52324204",
+            href: "https://github.com/Pricelesssarah-ui",
             style: 'rounded-tr-md',
         },
 
@@ -48,7 +48,7 @@ function SocialLinks() {
                     Resume <FaFilePdf size={30}/>
                 </>
             ),
-            href: "/resume.pdf",
+            href: "https://docs.google.com/document/d/1NEtaBRMXmdCDhDepaOVjT4JCPzaLZmR07mubdduT-bg/edit?usp=sharing",
             style: 'rounded-br-md',
             download: "true",
         }
@@ -66,8 +66,9 @@ function SocialLinks() {
                     <li key={id} className={`socials flex justify-between items-center w-40 h-14
                         px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 + " " + ${style}`}>
                         <a href={href}
+                        target="_blank"
                         className="flex justify-between items-center w-full text-white"
-                        download={download}>
+                        download={true}>
                             
                         {child}
 

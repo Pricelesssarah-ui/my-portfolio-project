@@ -56,8 +56,8 @@ function Contact() {
                     </textarea>
 
 
-                    <button className='contactbutton px-6 py-2 my-8 
-                        mx-auto flex items-center hover:scale-100 duration-500'>
+                    <button className='contactbutton px-6 py-2 my-8 rounded
+                        mx-auto flex items-center hover:scale-100 duration-300'>
                         Let's talk
                     </button>
                 </form>

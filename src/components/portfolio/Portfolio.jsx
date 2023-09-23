@@ -3,10 +3,10 @@ import "./Portfolio.css";
 
 import { motion } from "framer-motion";
 
-import Netflix from "../../assets/images/myImg.png";
-import Netflixp from "../../assets/images/myImg.png";
-import Netflixi from "../../assets/images/myImg.png";
-import Netflixx from "../../assets/images/myImg.png";
+import Netflix from "../../assets/images/learnz_pic.png";
+import Netflixp from "../../assets/images/learnz_pic.png";
+import Netflixi from "../../assets/images/learnz_pic.png";
+import Netflixx from "../../assets/images/learnz_pic.png";
 
 
 function Portfolio() {
@@ -59,7 +59,7 @@ function Portfolio() {
 
           {
             portfolios.map(({ id, src }) =>
-              <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+              <div key={id} className="portcontainer shadow-md shadow-white rounded-lg">
 
                 <img src={src}
                   alt=""
@@ -67,14 +67,14 @@ function Portfolio() {
                 />
 
 
-                <div className="flex items-center justify-center">
+                <div className="portbutton flex items-center justify-center">
 
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200
-                    hover:scale-105">Demo
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 rounded
+                    hover:scale-105"> <a href="https://learnz.vercel.app/" target="_blank">Demo</a>
                   </button>
 
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200
-                    hover:scale-105">Code
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 rounded
+                    hover:scale-105"> <a href="https://github.com/learnable-2022/LMS-YC-2-FE.git" target="_blank">Code</a>
                   </button>
 
                 </div>
