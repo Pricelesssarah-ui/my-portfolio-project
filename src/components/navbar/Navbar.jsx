@@ -84,7 +84,15 @@ const NavBar = () => {
 
                     )}
 
-                    <button className="rounded"><NavLink to="/contact" className="hover:scale-100 duration-300">Let's connect</NavLink> </button>
+                    <button className="rounded">
+                        <NavLink to="/contact" 
+                            onClick={() => setNav(!nav)} 
+                            smooth duration={300} 
+                            className="hover:scale-100 duration-300"
+                        >
+                            Let's connect
+                        </NavLink> 
+                    </button>
                 </ul>
             )}
 

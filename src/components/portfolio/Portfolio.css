@@ -1,8 +1,10 @@
-.portcontainer {
-    height: 60vh;
-    margin: 30px;
-}
-
-.portbutton {
-    padding-top: 4rem;
-}
+ @media (min-width: 768px) {
+    .portcontainer {
+        height: 60vh;
+        margin: 30px;
+    }
+    
+    .portbutton {
+        padding-top: 4rem;
+    }
+ }

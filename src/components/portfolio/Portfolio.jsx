@@ -3,10 +3,15 @@ import "./Portfolio.css";
 
 import { motion } from "framer-motion";
 
-import Netflix from "../../assets/images/learnz_pic.png";
-import Netflixp from "../../assets/images/learnz_pic.png";
-import Netflixi from "../../assets/images/learnz_pic.png";
-import Netflixx from "../../assets/images/learnz_pic.png";
+import Group1 from "../../assets/images/Group (1).png";
+import Group2 from "../../assets/images/Group (2).png";
+import Group3 from "../../assets/images/Group (3).png";
+import Learnz from "../../assets/images/learnz_pic.png";
+import Restaurant from "../../assets/images/restaurant.png";
+import Lexandre from "../../assets/images/lexandre.png";
+import Quiz from "../../assets/images/quizapp.png";
+import { NavLink } from "react-router-dom";
+
 
 
 function Portfolio() {
@@ -14,22 +19,30 @@ function Portfolio() {
   const portfolios = [
     {
       id: 1,
-      src: Netflix,
+      src: Learnz,
+      demo: "https://learnz.vercel.app",
+      code: "https://github.com/learnable-2022/LMS-YC-2-FE.git",
     },
 
     {
       id: 2,
-      src: Netflixp,
+      src: Restaurant,
+      demo: "https://first-website-saralina.netlify.app",
+      code: "https://github.com/Pricelesssarah-ui/Sarah-first-website",
     },
 
     {
       id: 3,
-      src: Netflixi,
+      src: Lexandre,
+      demo: "https://lexandre-4y5j87r7z-technical-team.vercel.app/en",
+      code: "https://github.com/iStart-Technologies-Limited/lexandre.git",
     },
 
     {
       id: 4,
-      src: Netflixx,
+      src: Quiz,
+      demo: "https://fca-assessment-1-72s4.vercel.app/",
+      code: "https://github.com/Pricelesssarah-ui/FCA-assessment-1.git",
     }
   ]
 
@@ -58,23 +71,23 @@ function Portfolio() {
           px-12 sm:px-0">
 
           {
-            portfolios.map(({ id, src }) =>
-              <div key={id} className="portcontainer shadow-md shadow-white rounded-lg">
+            portfolios.map(({ id, src, demo, code }) =>
+              <div key={id} className="portcontainer shadow-md shadow-black rounded-lg">
 
                 <img src={src}
                   alt=""
-                  className="rounded-md duration-200 hover:scale-105"
+                  className="rounded-md duration-200"
                 />
 
 
                 <div className="portbutton flex items-center justify-center">
 
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 rounded
-                    hover:scale-105"> <a href="https://learnz.vercel.app/" target="_blank">Demo</a>
+                    hover:scale-105"> <NavLink target="_blank" demo={demo}>Demo</NavLink>
                   </button>
 
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 rounded
-                    hover:scale-105"> <a href="https://github.com/learnable-2022/LMS-YC-2-FE.git" target="_blank">Code</a>
+                    hover:scale-105"> <NavLink target="_blank" code={code}>Code</NavLink>
                   </button>
 
                 </div>
@@ -85,6 +98,23 @@ function Portfolio() {
           }
         </div>
 
+      </div>
+
+      <div>
+        <img src={Group1}
+          alt='group'
+          className='w-10 h-6 absolute left-20 top-60 animate-ping'
+        />
+
+        <img src={Group2}
+          alt='group'
+          className='w-10 h-6 absolute right-10 top-36 animate-bounce'
+        />
+
+        <img src={Group3}
+          alt='group'
+          className='w-10 h-6 absolute bottom-20 right-20 animate-spin'
+        />
       </div>
     </motion.div>
   )

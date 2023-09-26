@@ -3,6 +3,9 @@ import React from 'react';
 import "./Experience.css";
 import { motion } from 'framer-motion';
 
+import Group1 from "../../assets/images/Group (1).png";
+import Group2 from "../../assets/images/Group (2).png";
+import Group3 from "../../assets/images/Group (3).png";
 import html from '../../assets/icons/html.svg';
 import css from '../../assets/icons/css.svg';
 import sass from '../../assets/icons/sass.svg';
@@ -101,7 +104,7 @@ function Experience() {
       title: "Figma",
       style: "shadow-green-500"
     },
-    
+
     {
       id: 12,
       src: github,
@@ -111,13 +114,13 @@ function Experience() {
   ]
 
   return (
-    <motion.div name="experience" 
+    <motion.div name="experience"
       className='w-full h-full'
 
-      initial={{opacity: 0}}
-      animate={{opacity: 1}}
-      exit={{opacity: 0}}
-    > 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
 
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col 
         justify-center w-full h-full'>
@@ -135,20 +138,37 @@ function Experience() {
           text-center py-8 px-12 sm:px-0'>
 
           {
-            techs.map(({id, src, title, style}) =>
+            techs.map(({ id, src, title, style }) =>
 
-            <div key={id} 
-              className={`shadow-md hover:scale-105 duration-500
+              <div key={id}
+                className={`shadow-md hover:scale-105 duration-500
               py-2 rounded-lg ${style}`}>
 
-              <img src={src} alt="" className='w-20 mx-auto' />
-              <p className='mt-4'>{title}</p>
-            </div>
+                <img src={src} alt="" className='w-20 mx-auto' />
+                <p className='mt-4'>{title}</p>
+              </div>
             )
           }
-          
+
         </div>
-      </div> 
+      </div>
+
+      <div>
+        <img src={Group1}
+          alt='group'
+          className='w-10 h-6 absolute left-20 top-60 animate-ping'
+        />
+
+        <img src={Group2}
+          alt='group'
+          className='w-10 h-6 absolute right-10 top-36 animate-bounce'
+        />
+
+        <img src={Group3}
+          alt='group'
+          className='w-10 h-6 absolute bottom-20 right-20 animate-spin'
+        />
+      </div>
     </motion.div>
   )
 }

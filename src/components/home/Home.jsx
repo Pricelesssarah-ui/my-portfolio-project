@@ -2,11 +2,13 @@ import React from "react";
 
 import "./Home.css";
 import { motion } from "framer-motion";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { NavLink } from "react-router-dom";
+
 import Group1 from "../../assets/images/Group (1).png";
 import Group2 from "../../assets/images/Group (2).png";
 import Group3 from "../../assets/images/Group (3).png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { NavLink } from "react-router-dom";
+
 
 function Home() {
     return (
