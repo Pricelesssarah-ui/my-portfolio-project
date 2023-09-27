@@ -6,8 +6,8 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
 import Group1 from "../../assets/images/Group (1).png";
-import Group2 from "../../assets/images/Group (2).png";
 import Group3 from "../../assets/images/Group (3).png";
+import Arrow from "../../assets/icons/arrow.svg";
 
 
 function Home() {
@@ -44,14 +44,14 @@ function Home() {
                     className='w-10 h-6 absolute left-20 top-60 animate-ping'
                 />
 
-                <img src={Group2}
+                <img src={Arrow}
                     alt='group'
-                    className='w-10 h-6 absolute right-10 top-36 animate-bounce'
+                    className='arrowicon w-10 h-10 absolute right-10 top-20 animate-ping'
                 />
 
                 <img src={Group3}
                     alt='group'
-                    className='w-10 h-6 absolute bottom-20 right-20 animate-spin'
+                    className='w-10 h-6 absolute bottom-10 right-20 animate-spin'
                 />
             </div>
         </motion.div>

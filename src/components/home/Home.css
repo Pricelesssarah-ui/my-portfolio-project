@@ -13,3 +13,9 @@
     background: linear-gradient(80deg, #014507, #7a6b6b);
     color: #90E77D;
 }
+
+@media (min-width: 768px) {
+    .arrowicon {
+        right: 10;
+    }
+}

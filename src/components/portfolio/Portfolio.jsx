@@ -2,15 +2,16 @@ import React from "react";
 import "./Portfolio.css";
 
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
 import Group1 from "../../assets/images/Group (1).png";
-import Group2 from "../../assets/images/Group (2).png";
+import Arrow from "../../assets/icons/arrow.svg";
 import Group3 from "../../assets/images/Group (3).png";
 import Learnz from "../../assets/images/learnz_pic.png";
 import Restaurant from "../../assets/images/restaurant.png";
 import Lexandre from "../../assets/images/lexandre.png";
 import Quiz from "../../assets/images/quizapp.png";
-import { NavLink } from "react-router-dom";
+
 
 
 
@@ -74,20 +75,24 @@ function Portfolio() {
             portfolios.map(({ id, src, demo, code }) =>
               <div key={id} className="portcontainer shadow-md shadow-black rounded-lg">
 
-                <img src={src}
-                  alt=""
-                  className="rounded-md duration-200"
-                />
+                <div className="relative group overflow-hidden hover:rounded-md">
+                  <img src={src}
+                    alt=""
+                    className="rounded-md duration-200 transition-transform 
+                      transform-gpu group-hover:scale-105"
+                  />
+                </div>
+                
 
 
                 <div className="portbutton flex items-center justify-center">
 
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 rounded
-                    hover:scale-105"> <NavLink target="_blank" demo={demo}>Demo</NavLink>
+                    hover:scale-105"> <NavLink target="_blank" to={demo}>Demo</NavLink>
                   </button>
 
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 rounded
-                    hover:scale-105"> <NavLink target="_blank" code={code}>Code</NavLink>
+                    hover:scale-105"> <NavLink target="_blank" to={code}>Code</NavLink>
                   </button>
 
                 </div>
@@ -106,9 +111,9 @@ function Portfolio() {
           className='w-10 h-6 absolute left-20 top-60 animate-ping'
         />
 
-        <img src={Group2}
+        <img src={Arrow}
           alt='group'
-          className='w-10 h-6 absolute right-10 top-36 animate-bounce'
+          className='arrowicon w-10 h-10 absolute right-10 top-20 animate-ping'
         />
 
         <img src={Group3}

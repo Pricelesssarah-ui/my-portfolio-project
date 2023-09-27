@@ -9,10 +9,10 @@ import "./SocialLinks.css";
 function SocialLinks() {
     const links = [
         {
-            id:1,
+            id: 1,
             child: (
                 <>
-                    LinkedIn <FaLinkedin size={30}/>
+                    LinkedIn <FaLinkedin size={30} />
                 </>
             ),
             href: "https://www.linkedIn.com/in/sarahadebayo",
@@ -20,10 +20,10 @@ function SocialLinks() {
         },
 
         {
-            id:2,
+            id: 2,
             child: (
                 <>
-                    Github <FaGithub size={30}/>
+                    Github <FaGithub size={30} />
                 </>
             ),
             href: "https://github.com/Pricelesssarah-ui",
@@ -31,10 +31,10 @@ function SocialLinks() {
         },
 
         {
-            id:3,
+            id: 3,
             child: (
                 <>
-                    Mail <HiOutlineMail size={30}/>
+                    Mail <HiOutlineMail size={30} />
                 </>
             ),
             href: "mailto:pricelesssarah3@gmail.com",
@@ -42,10 +42,10 @@ function SocialLinks() {
         },
 
         {
-            id:4,
+            id: 4,
             child: (
                 <>
-                    Resume <FaFilePdf size={30}/>
+                    Resume <FaFilePdf size={30} />
                 </>
             ),
             href: "https://docs.google.com/document/d/1NEtaBRMXmdCDhDepaOVjT4JCPzaLZmR07mubdduT-bg/edit?usp=sharing",
@@ -54,29 +54,26 @@ function SocialLinks() {
         }
     ]
 
-
-
-
-    return(
-        <div className="flex flex-col top-[50%] left-0 fixed">
+    return (
+        <div className="flex flex-col top-[63%] left-0 fixed">
             <ul>
 
-                {links.map(({id, child, href, style, download}) => 
+                {links.map(({ id, child, href, style, download }) =>
 
                     <li key={id} className={`socials flex justify-between items-center w-40 h-14
                         px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 + " " + ${style}`}>
                         <a href={href}
-                        target="_blank"
-                        className="flex justify-between items-center w-full text-white"
-                        download={true}>
-                            
-                        {child}
+                            target="_blank"
+                            className="flex justify-between items-center w-full text-white"
+                            download={true}>
+
+                            {child}
 
                         </a>
                     </li>
-                
+
                 )}
-   
+
             </ul>
         </div>
     )

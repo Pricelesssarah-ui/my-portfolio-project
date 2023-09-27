@@ -37,7 +37,7 @@ const NavBar = () => {
                 <img src={Logo} className="pl-4" alt="logo" />
             </NavLink>
 
-            <ul className="hidden md:flex">
+            <ul className="hidden md:flex items-center">
 
                 {links.map(({ id, link }) =>
                     <li key={id} className="px-6 cursor-pointer 

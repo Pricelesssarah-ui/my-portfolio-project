@@ -4,7 +4,7 @@ import "./Experience.css";
 import { motion } from 'framer-motion';
 
 import Group1 from "../../assets/images/Group (1).png";
-import Group2 from "../../assets/images/Group (2).png";
+import Arrow from "../../assets/icons/arrow.svg";
 import Group3 from "../../assets/images/Group (3).png";
 import html from '../../assets/icons/html.svg';
 import css from '../../assets/icons/css.svg';
@@ -158,10 +158,9 @@ function Experience() {
           alt='group'
           className='w-10 h-6 absolute left-20 top-60 animate-ping'
         />
-
-        <img src={Group2}
+        <img src={Arrow}
           alt='group'
-          className='w-10 h-6 absolute right-10 top-36 animate-bounce'
+          className='arrowicon w-10 h-10 absolute right-10 top-20 animate-ping'
         />
 
         <img src={Group3}
