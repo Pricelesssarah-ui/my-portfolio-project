@@ -3,11 +3,10 @@ import React from "react";
 import "./About.css";
 import { motion } from "framer-motion";
 
-import Myimg from "../../assets/images/myImg.png";
+import Myimg from "../../assets/icons/bg-img.svg";
 import Group1 from "../../assets/images/Group (1).png";
 import Arrow from "../../assets/icons/arrow.svg";
 import Group3 from "../../assets/images/Group (3).png";
-
 
 
 function About() {
@@ -30,17 +29,23 @@ function About() {
       </div>
 
 
-      <div className="aboutpage max-w-screen-lg slide-up
-          justify-center w-full h-full">
+      <div className="aboutpage max-w-screen-lg slide-up w-full h-full">
 
-        <img src={Myimg} alt="myimage" />
+        <img src={Myimg} className="myImg" alt="myimage" />
 
-        <p className="text-1xl mt-10 px-12 w-[105%]">I'm a passionate developer
-          who likes to code. I enjoy building anything that live on the internet.
-          I pick interesting in technology right from time but didn't have the
-          opportunity to study computer science. Guided by passion, I had the
-          privilege to follow a training on web development in Genesys Tech Hub where
-          I learned somuch and grew my skills.
+        <p className="text-1xl mt-0 px-12 w-[105%]">
+          Hello! 👋 I'm Sarah Adebayo, a passionate frontend developer with a love for 
+          creating visually appealing and user-friendly web experiences.
+          <ul>
+            <li>💻 Tech Stack:</li>
+            <li>Languages: HTML, CSS, JavaScript</li>
+            <li>Libraries/Frameworks: React.js, Next.js</li>
+            <li>Styling: Sass, CSS-in-JS (Styled Components)</li>
+            <li>Version Control: Git, GitHub</li>
+          </ul>
+          🚀 What I Do:
+          I specialize in turning design concepts into responsive and interactive web applications.
+          I enjoy the challenge of optimizing for performance and ensuring a seamless user experience across devices.
         </p>
       </div>
 

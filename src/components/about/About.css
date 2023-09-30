@@ -1,8 +1,13 @@
-@media (min-width: 768px) {
-    .abouttext {
-        margin-left: 70px;
-    }
+.myImg {
+  width: 100%;
+  padding-block: 20px;
+}
 
+.aboutpage p {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
     .aboutpage {
         display: flex;
         justify-content: space-between;

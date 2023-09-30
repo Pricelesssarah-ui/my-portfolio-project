@@ -26,7 +26,7 @@ function Contact() {
                     </h1>
 
                     <p className='py-6 text-2xl'>
-                        Submit the form below to get in touch with me
+                        Let me build something amazing for you!😊
                     </p>
                 </div>
 
