@@ -39,12 +39,12 @@ function About() {
       </div>
 
 
-      <div className=''>
-        <h1 className='text-4xl font-bold border-b-4 border-gray-500
-          p-2 inline'>About
+      <div className='py-8'>
+        <h1 className='text-4xl font-bold mt-8 inline border-b-4
+            border-gray-500'>About
         </h1>
 
-        <p className='py-6 text-2xl text-white'>This is me...</p>
+        <p className='pt-10 text-2xl text-white animate-bounce z-10'>This is me...</p>
       </div>
 
       <div className="slide-up">

@@ -30,7 +30,7 @@ const NavBar = () => {
     ];
 
     return (
-        <div className=" navbar flex justify-between items-center opacity-80 w-full h-20 px-4
+        <div className="navbar flex justify-between items-center opacity-100 w-full h-20 px-4
             text-white">
 
             <NavLink to="/">
@@ -65,7 +65,7 @@ const NavBar = () => {
 
             {nav && (
 
-                <ul className="flex flex-col justify-center items-center opacity
+                <ul className="flex flex-col justify-center items-center
                     absolute top-0 left-0 w-full h-screen b-screen bg-black text-white">
 
                     {links.map(({ id, link }) =>

@@ -66,7 +66,7 @@ function Portfolio() {
             border-gray-500">Completed Projects
           </h1>
 
-          <p className="py-6 text-2xl text-white animate-bounce">Check out my work!</p>
+          <p className="pt-10 text-2xl text-white animate-bounce">Check out my work!</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md-grid-cols-3 gap-8 
@@ -79,8 +79,7 @@ function Portfolio() {
                 <div className="relative group overflow-hidden hover:rounded-md">
                   <img src={src}
                     alt=""
-                    className="rounded-md duration-200 transition-transform 
-                    group-hover:scale-105"
+                    className="rounded-md duration-200 group-hover:scale-105"
                   />
                 </div>
                 

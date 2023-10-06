@@ -128,12 +128,12 @@ function Experience() {
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col 
         justify-center w-full h-full'>
 
-        <div className=''>
-          <h1 className='text-4xl font-bold border-b-4 border-gray-500
-            p-2 inline'>Experiences
+        <div className='py-8'>
+          <h1 className='text-4xl font-bold mt-8 inline border-b-4
+            border-gray-500'>Experiences
           </h1>
 
-          <p className='py-6 text-2xl text-white'>Technologies I have worked with</p>
+          <p className='pt-10 text-2xl text-white animate-bounce'>Technologies I have worked with</p>
         </div>
 
 

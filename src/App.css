@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 
 * {
@@ -13,7 +13,7 @@ h3,
 h4, 
 h5, 
 h6 {
-  font-family: 'Yatra One';
+  font-family: 'Righteous', cursive;
   font-size: 40px;
   line-height: 1;
 }

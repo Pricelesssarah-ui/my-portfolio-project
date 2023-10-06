@@ -2,6 +2,7 @@ import React from 'react';
 import "./Contact.css";
 import { motion } from 'framer-motion';
 import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
+import { Link } from "react-router-dom"
 
 
 import Group1 from "../../assets/images/Group (1).png";
@@ -23,12 +24,12 @@ function Contact() {
             <div className='flex flex-col p-4 justify-center max-w-screen-lg 
             mx-auto h-full'>
 
-                <div className='pb-8'>
-                    <h1 className='text-4xl font-bold inline 
-                    border-b-4 border-gray-500'>Let's connect
+                <div className='py-8'>
+                    <h1 className='text-4xl font-bold mt-8 inline border-b-4
+                        border-gray-500'>Let's connect
                     </h1>
 
-                    <p className='pt-6 text-2xl text-white'>
+                    <p className='pt-10 text-2xl text-white animate-bounce'>
                         Let me build something amazing for you!😊
                     </p>
                 </div>
@@ -36,9 +37,11 @@ function Contact() {
 
                 <div className='formContainer'>
                         <div className='mysocials'>
-                            <span className='emailSpan flex'>
-                                <HiOutlineMail size={30} className='mr-3' />
-                                pricelesssarah3@gmail.com
+                            <span className=''>
+                                <Link href="mailto:pricelesssarah3@gmail.com" className='emailSpan flex'>
+                                    <HiOutlineMail size={30} className='mr-3' />
+                                    pricelesssarah3@gmail.com
+                                </Link>
                             </span>
 
                             <span className='flex'>
