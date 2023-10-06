@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 import "./About.css";
 import { motion } from "framer-motion";
@@ -44,7 +44,7 @@ function About() {
             border-gray-500'>About
         </h1>
 
-        <p className='pt-10 text-2xl text-white animate-bounce z-10'>This is me...</p>
+        <p className='pt-10 text-2xl text-white animate-bounce'>This is me...</p>
       </div>
 
       <div className="slide-up">

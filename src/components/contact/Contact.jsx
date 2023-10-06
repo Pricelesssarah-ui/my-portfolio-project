@@ -38,7 +38,7 @@ function Contact() {
                 <div className='formContainer'>
                         <div className='mysocials'>
                             <span className=''>
-                                <Link href="mailto:pricelesssarah3@gmail.com" className='emailSpan flex'>
+                                <Link to="mailto:pricelesssarah3@gmail.com" className='emailSpan flex' target='_blank'>
                                     <HiOutlineMail size={30} className='mr-3' />
                                     pricelesssarah3@gmail.com
                                 </Link>
