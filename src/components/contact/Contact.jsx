@@ -1,10 +1,13 @@
 import React from 'react';
 import "./Contact.css";
 import { motion } from 'framer-motion';
+import { HiOutlineMail, HiOutlinePhone } from "react-icons/hi";
+
 
 import Group1 from "../../assets/images/Group (1).png";
 import Arrow from "../../assets/icons/arrow.svg";
 import Group3 from "../../assets/images/Group (3).png";
+
 
 function Contact() {
     return (
@@ -22,49 +25,60 @@ function Contact() {
 
                 <div className='pb-8'>
                     <h1 className='text-4xl font-bold inline 
-                    border-b-4 border-gray-500'>Contact
+                    border-b-4 border-gray-500'>Let's connect
                     </h1>
 
-                    <p className='py-6 text-2xl'>
+                    <p className='pt-6 text-2xl text-white'>
                         Let me build something amazing for you!😊
                     </p>
                 </div>
 
 
-                <div className='flex justify-center items-center'>
-                    <form action="https://getform.io/f/6f961cbd-c9f1-4586-a737-315a7bbc233e"
-                        method='POST'
-                        className='flex flex-col w-full md:w-1/2'>
+                <div className='formContainer'>
+                        <div className='mysocials'>
+                            <span className='emailSpan flex'>
+                                <HiOutlineMail size={30} className='mr-3' />
+                                pricelesssarah3@gmail.com
+                            </span>
 
-                        <input type="text"
-                            name='name'
-                            placeholder='Enter your name'
-                            className='p-2 bg-transparent border-2 rounded-md
-                        focus:outline-none'
-                        />
+                            <span className='flex'>
+                                <HiOutlinePhone size={30} className='mr-3' />
+                                +2348162974435
+                            </span>
+                        </div>
 
-                        <input type="text"
-                            name='email'
-                            placeholder='Enter your email'
-                            className='my-4 p-2 bg-transparent border-2 rounded-md
-                        focus:outline-none'
-                        />
+                        <form action="https://getform.io/f/6f961cbd-c9f1-4586-a737-315a7bbc233e"
+                            method='POST'
+                            className='flex flex-col w-full md:w-1/2'>
+                            <h1 className='text-2xl py-5 text-center'>Complete the form below</h1>
+                            <input type="text"
+                                name='name'
+                                placeholder='Enter your name'
+                                className='p-2 bg-transparent border-2 rounded-md
+                                focus:outline-none'
+                            />
 
-                        <textarea name="message"
-                            rows="10"
-                            placeholder='Enter your message...'
-                            className='p-2 bg-transparent border-2 rounded-md
-                        focus:outline-none'>
-                        </textarea>
+                            <input type="text"
+                                name='email'
+                                placeholder='Enter your email'
+                                className='my-4 p-2 bg-transparent border-2 rounded-md
+                                focus:outline-none'
+                            />
+
+                            <textarea name="message"
+                                rows="6"
+                                placeholder='Enter your message...'
+                                className='p-2 bg-transparent border-2 rounded-md
+                                focus:outline-none'>
+                            </textarea>
 
 
-                        <button className='contactbutton px-6 py-2 my-8 rounded
-                        mx-auto flex items-center hover:scale-100 duration-300'>
-                            Let's talk
-                        </button>
-                    </form>
-                </div>
-
+                            <button className='contactbutton px-6 py-2 my-8 rounded
+                                mx-auto flex items-center hover:scale-100 duration-300'>
+                                Let's talk
+                            </button>
+                        </form>
+                    </div>
             </div>
 
             <div>
@@ -75,7 +89,7 @@ function Contact() {
 
                 <img src={Arrow}
                     alt='group'
-                    className='arrowicon w-10 h-10 absolute right-10 top-20 animate-ping'
+                    className='arrowicon w-10 h-10 absolute right-8 top-20 animate-ping'
                 />
 
                 <img src={Group3}

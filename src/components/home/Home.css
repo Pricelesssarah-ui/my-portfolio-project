@@ -15,7 +15,13 @@
 }
 
 @media (min-width: 768px) {
-    .arrowicon {
-        right: 10;
+   
+    .textcontainer h1 {
+        font-size: 40px;
     }
+
+    .textcontainer h2 {
+        font-size: 30px;
+    }
+    
 }

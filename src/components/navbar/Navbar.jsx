@@ -65,7 +65,7 @@ const NavBar = () => {
 
             {nav && (
 
-                <ul className="flex flex-col justify-center items-center
+                <ul className="flex flex-col justify-center items-center opacity
                     absolute top-0 left-0 w-full h-screen b-screen bg-black text-white">
 
                     {links.map(({ id, link }) =>

@@ -4,6 +4,7 @@ import "./Home.css";
 import { motion } from "framer-motion";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { NavLink } from "react-router-dom";
+import SocialLinks from '../socialinks/SocialLinks';
 
 import Group1 from "../../assets/images/Group (1).png";
 import Group3 from "../../assets/images/Group (3).png";
@@ -19,10 +20,11 @@ function Home() {
             exit={{ opacity: 0 }}
         >
 
+            <SocialLinks />
 
             <div className="textcontainer flex flex-col justify-center items-center px-2">
-                <h1 className="flex justify-center items-center">Hi, I'm Sarah Adebayo.</h1>
-                <h2 className="text-4xl flex justify-center items-center">A Frontend Developer.</h2>
+                <h1 className="flex justify-center items-center text-3xl">Hi, I'm Sarah Adebayo</h1>
+                <h2 className="text-2xl flex justify-center items-center">A Frontend Developer.</h2>
                 <p className="paratext text-white text-center">who is driven by deep passion for developing web applications
                     that are user-friendly with an overall user experience.
                 </p>
@@ -46,7 +48,7 @@ function Home() {
 
                 <img src={Arrow}
                     alt='group'
-                    className='arrowicon w-10 h-10 absolute right-10 top-20 animate-ping'
+                    className='arrowicon w-10 h-10 absolute right-8 top-20 animate-ping'
                 />
 
                 <img src={Group3}

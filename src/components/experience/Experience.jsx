@@ -2,6 +2,7 @@ import React from 'react';
 
 import "./Experience.css";
 import { motion } from 'framer-motion';
+import SocialLinks from '../socialinks/SocialLinks';
 
 import Group1 from "../../assets/images/Group (1).png";
 import Arrow from "../../assets/icons/arrow.svg";
@@ -18,6 +19,7 @@ import next from '../../assets/icons/next.svg';
 import git from '../../assets/icons/git.svg';
 import figma from '../../assets/icons/figma.svg';
 import github from '../../assets/icons/github.svg';
+
 
 
 
@@ -122,6 +124,7 @@ function Experience() {
       exit={{ opacity: 0 }}
     >
 
+      <SocialLinks />
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col 
         justify-center w-full h-full'>
 
@@ -130,7 +133,7 @@ function Experience() {
             p-2 inline'>Experiences
           </h1>
 
-          <p className='py-6 text-2xl'>Technologies I have worked with</p>
+          <p className='py-6 text-2xl text-white'>Technologies I have worked with</p>
         </div>
 
 
@@ -160,7 +163,7 @@ function Experience() {
         />
         <img src={Arrow}
           alt='group'
-          className='arrowicon w-10 h-10 absolute right-10 top-20 animate-ping'
+          className='arrowicon w-10 h-10 absolute right-8 top-20 animate-ping'
         />
 
         <img src={Group3}

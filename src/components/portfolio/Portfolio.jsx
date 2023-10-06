@@ -3,6 +3,7 @@ import "./Portfolio.css";
 
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
+import SocialLinks from "../socialinks/SocialLinks";
 
 import Group1 from "../../assets/images/Group (1).png";
 import Arrow from "../../assets/icons/arrow.svg";
@@ -11,7 +12,6 @@ import Learnz from "../../assets/images/learnz_pic.png";
 import Restaurant from "../../assets/images/restaurant.png";
 import Lexandre from "../../assets/images/lexandre.png";
 import Quiz from "../../assets/images/quizapp.png";
-
 
 
 
@@ -57,6 +57,7 @@ function Portfolio() {
       exit={{ opacity: 0 }}
     >
 
+      <SocialLinks />
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col 
         justify-center w-full h-full">
 
@@ -65,7 +66,7 @@ function Portfolio() {
             border-gray-500">Completed Projects
           </h1>
 
-          <p className="py-6 text-2xl animate-bounce">Check out my work!</p>
+          <p className="py-6 text-2xl text-white animate-bounce">Check out my work!</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md-grid-cols-3 gap-8 
@@ -79,7 +80,7 @@ function Portfolio() {
                   <img src={src}
                     alt=""
                     className="rounded-md duration-200 transition-transform 
-                      transform-gpu group-hover:scale-105"
+                    group-hover:scale-105"
                   />
                 </div>
                 
@@ -113,7 +114,7 @@ function Portfolio() {
 
         <img src={Arrow}
           alt='group'
-          className='arrowicon w-10 h-10 absolute right-10 top-20 animate-ping'
+          className='arrowicon w-10 h-10 absolute right-8 top-20 animate-ping'
         />
 
         <img src={Group3}

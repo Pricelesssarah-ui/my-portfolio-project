@@ -7,6 +7,10 @@
   font-size: 16px;
 }
 
+.timelineTitle {
+  color: #90E77D;
+}
+
 @media (min-width: 768px) {
     .aboutpage {
         display: flex;
@@ -25,6 +29,11 @@
 
     .aboutpage img {
         width: 50%;
+    }
+
+    .workplace {
+      padding-top: 60px;
+      font-size: 35px;
     }
 }
 
