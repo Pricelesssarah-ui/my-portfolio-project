@@ -9,11 +9,13 @@ import Arrow from "../../assets/icons/arrow.svg";
 import Group3 from "../../assets/images/Group (3).png";
 
 
-function About() {
+function About({ nav }) {
 
   return (
     <motion.div name="about"
-      className="w-full h-screen max-w-screen-lg mx-auto p-4"
+      className={`w-full h-screen max-w-screen-lg mx-auto p-4 ${
+        nav ? "hidden" : ""
+      }`}
 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
