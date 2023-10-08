@@ -24,7 +24,7 @@ import github from '../../assets/icons/github.svg';
 
 
 
-function Experience() {
+function Experience({ nav }) {
 
   const techs = [
     {
@@ -117,7 +117,7 @@ function Experience() {
 
   return (
     <motion.div name="experience"
-      className='w-full h-full'
+      className={`w-full h-full ${ nav ? "hidden" : "" }`}
 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

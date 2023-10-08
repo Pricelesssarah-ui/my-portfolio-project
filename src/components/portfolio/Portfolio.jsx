@@ -15,7 +15,7 @@ import Quiz from "../../assets/images/quizapp.png";
 
 
 
-function Portfolio() {
+function Portfolio({ nav }) {
 
   const portfolios = [
     {
@@ -50,7 +50,7 @@ function Portfolio() {
 
   return (
     <motion.div name="portfolio"
-      className="md:h-full"
+      className={`md:h-full ${nav ? "hidden" : ""}`}
 
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

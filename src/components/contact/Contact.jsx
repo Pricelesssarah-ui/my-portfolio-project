@@ -10,11 +10,11 @@ import Arrow from "../../assets/icons/arrow.svg";
 import Group3 from "../../assets/images/Group (3).png";
 
 
-function Contact() {
+function Contact({ nav }) {
     return (
 
         <motion.div name="contact"
-            className='w-full h-full p-4'
+            className={`w-full h-full p-4 ${nav ? "hidden" : ""}`}
 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
