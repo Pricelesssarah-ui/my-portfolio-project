@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion"
 
@@ -11,15 +11,16 @@ import Home from "./home/Home";
 
 
 function AnimatedRoutes() {
+  const [nav, setNav] = useState(false)
     const location = useLocation();
 
 
     return(
         <AnimatePresence>
-            <Navbar />
+            <Navbar nav={nav} setNav={setNav} />
             <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Home />} /> 
-                <Route path="/about" element={<About />} />
+                <Route path="/about" element={<About nav={nav} />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/experience" element={<Experience />} />
                 <Route path="/contact" element={<Contact />} />

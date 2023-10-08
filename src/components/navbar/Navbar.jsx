@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
@@ -7,9 +7,9 @@ import "./Navbar.css";
 import Logo from "../../assets/icons/logo.svg";
 
 
-const NavBar = () => {
+const NavBar = ({ nav, setNav }) => {
 
-    const [nav, setNav] = useState(false)
+    // const [nav, setNav] = useState(false)
 
     const links = [
 
