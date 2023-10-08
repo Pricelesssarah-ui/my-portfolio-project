@@ -54,27 +54,18 @@ function About({ nav }) {
 
         <img src={Myimg} className="myImg" alt="myimage" />
 
-        <p className="text-1xl mt-0 text-center">
-          Hello! 👋 I'm Sarah Adebayo, a passionate frontend developer with a love for
-          creating visually appealing and user-friendly web experiences.
-          <ul className="py-2">
-            <li>💻 Tech Stack:</li>
-            <li>Languages: HTML, CSS, JavaScript</li>
-            <li>Libraries/Frameworks: React.js, Next.js</li>
-            <li>Styling: Sass, CSS-in-JS (Styled Components)</li>
-            <li>Version Control: Git, GitHub</li>
-          </ul>
-          🚀 What I Do:
-          I specialize in turning design concepts into responsive and interactive web applications.
-          I enjoy the challenge of optimizing for performance and ensuring a seamless user experience across devices.
+        <p className="text-1xl mt-0">
+          Hello! 👋 I'm Sarah Adebayo, a passionate frontend developer with love for
+          creating visually appealing and user-friendly web experiences. I specialize in turning design concepts into responsive 
+          and interactive websites. Beyond the code, I'm a problem solver at heart. I thrive in dynamic environments where challenges fuel creativity.
         </p>
       </div>
-      <h1 className="workplace pt-9 text-2xl">Places I have worked:</h1>
+      <h1 className="workplace pt-9 text-2xl">Experiences:</h1>
       <div>
         <ol className="items-center sm:flex pt-9">
           <li className="relative mb-6 sm:mb-0">
             <div className="flex items-center">
-              <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 ring-white bg-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+              <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 ring-white bg-white sm:ring-8 shrink-0">
                 <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
@@ -89,7 +80,7 @@ function About({ nav }) {
           </li>
           <li className="relative mb-6 sm:mb-0">
             <div className="flex items-center">
-              <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 ring-white bg-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+              <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 ring-white bg-white sm:ring-8 shrink-0">
                 <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
@@ -104,7 +95,7 @@ function About({ nav }) {
           </li>
           <li className="relative mb-6 sm:mb-0">
             <div className="flex items-center">
-              <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 ring-white bg-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+              <div className="z-10 flex items-center justify-center w-6 h-6 rounded-full ring-0 ring-white bg-white sm:ring-8 shrink-0">
                 <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>

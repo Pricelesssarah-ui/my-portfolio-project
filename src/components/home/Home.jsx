@@ -32,7 +32,7 @@ function Home() {
                     <NavLink to="/contact" smooth duration={500}
                         className="portfoliobutton group w-fit px-6 py-3 my-5
                         flex items-center rounded-md cursor-pointer">
-                        Hire me...
+                        Hire me
                         <span className="group-hover:rotate-90 duration-500">
                             <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                         </span>
