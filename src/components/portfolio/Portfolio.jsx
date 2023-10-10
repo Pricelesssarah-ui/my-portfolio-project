@@ -11,7 +11,7 @@ import Group3 from "../../assets/images/Group (3).png";
 import Learnz from "../../assets/images/learnz_pic.png";
 import Restaurant from "../../assets/images/restaurant.png";
 import Lexandre from "../../assets/images/lexandre.png";
-import Quiz from "../../assets/images/quizapp.png";
+import ConferenceApp from "../../assets/images/conferenceApp.png";
 
 
 
@@ -41,9 +41,9 @@ function Portfolio({ nav }) {
 
     {
       id: 4,
-      src: Quiz,
-      demo: "https://fca-assessment-1-72s4.vercel.app",
-      code: "https://github.com/Pricelesssarah-ui/FCA-assessment-1.git",
+      src: ConferenceApp,
+      demo: "https://conference-app-pied.vercel.app",
+      code: "https://github.com/Pricelesssarah-ui/conference-app.git",
     }
   ]
 
