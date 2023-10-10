@@ -19,7 +19,7 @@ function AnimatedRoutes() {
         <AnimatePresence>
             <Navbar nav={nav} setNav={setNav} />
             <Routes location={location} key={location.pathname}>
-                <Route path="/" element={<Home />} /> 
+                <Route path="" element={<Home />} /> 
                 <Route path="/about" element={<About nav={nav} />} />
                 <Route path="/projects" element={<Portfolio nav={nav} />} />
                 <Route path="/technologies" element={<Experience nav={nav} />} />
