@@ -8,11 +8,10 @@ import SocialLinks from "../socialinks/SocialLinks";
 import Group1 from "../../assets/images/Group (1).png";
 import Arrow from "../../assets/icons/arrow.svg";
 import Group3 from "../../assets/images/Group (3).png";
+import Patricia from "../../assets/images/patricia.png";
 import Learnz from "../../assets/images/learnz_pic.png";
-import Restaurant from "../../assets/images/restaurant.png";
-import Lexandre from "../../assets/images/lexandre.png";
 import ConferenceApp from "../../assets/images/conferenceApp.png";
-
+import Lexandre from "../../assets/images/lexandre.png";
 
 
 function Portfolio({ nav }) {
@@ -20,30 +19,30 @@ function Portfolio({ nav }) {
   const portfolios = [
     {
       id: 1,
-      src: Learnz,
-      demo: "https://learnz.vercel.app",
-      code: "https://github.com/learnable-2022/LMS-YC-2-FE.git",
+      src: Patricia,
+      demo: "https://patricia-crypto.vercel.app",
+      code: "https://github.com/Pricelesssarah-ui/PatriciaCrypto.git",
     },
 
     {
       id: 2,
-      src: Restaurant,
-      demo: "https://first-website-saralina.netlify.app",
-      code: "https://github.com/Pricelesssarah-ui/Sarah-first-website",
+      src: Learnz,
+      demo: "https://learnz.vercel.app",
+      code: "https://github.com/learnable-2022/LMS-YC-2-FE.git ",
     },
 
     {
       id: 3,
-      src: Lexandre,
-      demo: "https://lexandre-4y5j87r7z-technical-team.vercel.app/en",
-      code: "https://github.com/iStart-Technologies-Limited/lexandre.git",
+      src: ConferenceApp,
+      demo: "https://conference-app-pied.vercel.app",
+      code: "https://github.com/Pricelesssarah-ui/conference-app.git",
     },
 
     {
       id: 4,
-      src: ConferenceApp,
-      demo: "https://conference-app-pied.vercel.app",
-      code: "https://github.com/Pricelesssarah-ui/conference-app.git",
+      src: Lexandre,
+      demo: "https://lexandre-4y5j87r7z-technical-team.vercel.app/en",
+      code: "https://github.com/iStart-Technologies-Limited/lexandre.git",
     }
   ]
 

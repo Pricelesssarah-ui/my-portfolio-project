@@ -21,8 +21,8 @@ function AnimatedRoutes() {
             <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Home />} /> 
                 <Route path="/about" element={<About nav={nav} />} />
-                <Route path="/portfolio" element={<Portfolio nav={nav} />} />
-                <Route path="/experience" element={<Experience nav={nav} />} />
+                <Route path="/projects" element={<Portfolio nav={nav} />} />
+                <Route path="/technologies" element={<Experience nav={nav} />} />
                 <Route path="/contact" element={<Contact nav={nav} />} />
             </Routes>
         </AnimatePresence> 
