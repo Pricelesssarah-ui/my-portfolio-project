@@ -130,7 +130,7 @@ function Experience({ nav }) {
 
         <div className='py-8'>
           <h1 className='text-4xl font-bold mt-8 inline border-b-4
-            border-gray-500'>Technologies
+            border-gray-500'>Technical Tools
           </h1>
 
           <p className='pt-10 text-2xl text-white animate-bounce'>Technologies I have worked with</p>

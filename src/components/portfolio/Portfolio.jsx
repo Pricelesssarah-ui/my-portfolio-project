@@ -42,7 +42,7 @@ function Portfolio({ nav }) {
     {
       id: 4,
       src: Quiz,
-      demo: "https://fca-assessment-1-72s4.vercel.app/",
+      demo: "https://fca-assessment-1-72s4.vercel.app",
       code: "https://github.com/Pricelesssarah-ui/FCA-assessment-1.git",
     }
   ]

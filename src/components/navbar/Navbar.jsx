@@ -25,7 +25,7 @@ const NavBar = ({ nav, setNav }) => {
 
         {
             id: 3,
-            link: "experience"
+            link: "technologies"
         }
     ];
 
