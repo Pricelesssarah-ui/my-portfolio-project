@@ -8,7 +8,7 @@ import SocialLinks from "../socialinks/SocialLinks";
 import Group1 from "../../assets/images/Group (1).png";
 import Arrow from "../../assets/icons/arrow.svg";
 import Group3 from "../../assets/images/Group (3).png";
-import Patricia from "../../assets/images/patricia.png";
+import DietApp from "../../assets/images/dietApp.png";
 import Learnz from "../../assets/images/learnz_pic.png";
 import ConferenceApp from "../../assets/images/conferenceApp.png";
 import Lexandre from "../../assets/images/lexandre.png";
@@ -19,23 +19,23 @@ function Portfolio({ nav }) {
   const portfolios = [
     {
       id: 1,
-      src: Patricia,
-      demo: "https://patricia-crypto.vercel.app",
-      code: "https://github.com/Pricelesssarah-ui/PatriciaCrypto.git",
+      src: Learnz,
+      demo: "https://learnz.vercel.app",
+      code: "https://github.com/learnable-2022/LMS-YC-2-FE.git",
     },
 
     {
       id: 2,
-      src: Learnz,
-      demo: "https://learnz.vercel.app",
-      code: "https://github.com/learnable-2022/LMS-YC-2-FE.git ",
+      src: ConferenceApp,
+      demo: "https://conference-app-pied.vercel.app",
+      code: "https://github.com/Pricelesssarah-ui/conference-app.git"
     },
 
     {
       id: 3,
-      src: ConferenceApp,
-      demo: "https://conference-app-pied.vercel.app",
-      code: "https://github.com/Pricelesssarah-ui/conference-app.git",
+      src: DietApp,
+      demo: "https://diet-plan-app.vercel.app/",
+      code: "https://github.com/Pricelesssarah-ui/Diet-plan-app.git",
     },
 
     {
