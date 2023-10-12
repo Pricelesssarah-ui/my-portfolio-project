@@ -74,7 +74,7 @@ function About({ nav }) {
             </div>
             <div className="mt-3 sm:pr-8">
               <h3 className="timelineTitle text-lg font-semibold text-gray-900">Istart Technologies Limited</h3>
-              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">August 2023 - Present</time>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">August 2023 - October 2023</time>
               <p className="text-base font-normal text-white">★	Built functional, readable and responsive project for clients.</p>
             </div>
           </li>
