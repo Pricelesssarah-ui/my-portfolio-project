@@ -48,7 +48,7 @@ function SocialLinks() {
                     Resume <FaFilePdf size={30} />
                 </>
             ),
-            href: "https://docs.google.com/document/d/1bv739NQUphp0TMXHq0Hnu7QL3X4hykGpNZZu5eJlgyo/edit?usp=sharing",
+            href: "https://docs.google.com/document/d/15UIbaFpPzwO8G2t81dp38iYTkk17QSrcOhh9ta-R1Jk/edit?usp=sharing",
             style: 'rounded-br-md',
             download: "true",
         }
