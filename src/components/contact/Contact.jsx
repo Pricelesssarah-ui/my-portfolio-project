@@ -68,6 +68,13 @@ function Contact({ nav }) {
                                 focus:outline-none'
                             />
 
+                            <input type="text"
+                                name='whatsapp'
+                                placeholder='Enter your whatsapp number'
+                                className='my-4 p-2 bg-transparent border-2 rounded-md
+                                focus:outline-none'
+                            />
+
                             <textarea name="message"
                                 rows="6"
                                 placeholder='Enter your message...'
