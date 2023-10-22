@@ -61,7 +61,7 @@ function About({ nav }) {
         </p>
       </div>
       <h1 className="workplace pt-9 text-2xl">Experiences:</h1>
-      <div>
+      <div className="expContainer">
         <ol className="items-center sm:flex pt-9">
           <li className="relative mb-6 sm:mb-0">
             <div className="flex items-center">

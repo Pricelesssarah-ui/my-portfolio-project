@@ -11,6 +11,10 @@
   color: #90E77D;
 }
 
+.expContainer {
+  padding-bottom: 30px;
+}
+
 @media (min-width: 768px) {
     .aboutpage {
         display: flex;
