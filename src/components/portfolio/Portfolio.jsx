@@ -11,7 +11,7 @@ import Group3 from "../../assets/images/Group (3).png";
 import DietApp from "../../assets/images/dietApp.png";
 import Learnz from "../../assets/images/learnz_pic.png";
 import ConferenceApp from "../../assets/images/conferenceApp.png";
-import Lexandre from "../../assets/images/lexandre.png";
+import Patricia from "../../assets/images/patricia.png";
 
 
 function Portfolio({ nav }) {
@@ -40,9 +40,9 @@ function Portfolio({ nav }) {
 
     {
       id: 4,
-      src: Lexandre,
-      demo: "https://lexandre-4y5j87r7z-technical-team.vercel.app/en",
-      code: "https://github.com/iStart-Technologies-Limited/lexandre.git",
+      src: Patricia,
+      demo: "https://patricia-crypto.vercel.app",
+      code: "https://github.com/Pricelesssarah-ui/PatriciaCrypto.git",
     }
   ]
 
