@@ -11,7 +11,7 @@ import Group3 from "../../assets/images/Group (3).png";
 import DietApp from "../../assets/images/dietApp.png";
 import Learnz from "../../assets/images/learnz_pic.png";
 import ConferenceApp from "../../assets/images/conferenceApp.png";
-import Patricia from "../../assets/images/patricia.png";
+import Cristaxi from "../../assets/images/crist.png";
 
 
 function Portfolio({ nav }) {
@@ -40,9 +40,9 @@ function Portfolio({ nav }) {
 
     {
       id: 4,
-      src: Patricia,
-      demo: "https://patricia-crypto.vercel.app",
-      code: "https://github.com/Pricelesssarah-ui/PatriciaCrypto.git",
+      src: Cristaxi,
+      demo: "https://cristaxis-project.vercel.app",
+      code: "https://github.com/Pricelesssarah-ui/Cristaxis-project.git",
     }
   ]
 
